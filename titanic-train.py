@@ -7,11 +7,7 @@ import seaborn as sns
 
 # load data
 
-current_dir = os.path.dirname(os.path.abspath(__file__))
-csv_path = os.path.join(current_dir, "train.csv")
-
-form = pd.read_csv(csv_path)
-form = pd.read_csv("train.csv")
+form = pd.read_csv("/content/train.csv") # Corrected path to the CSV file
 print(form)
 
 # Use seaborn only if available
@@ -21,11 +17,6 @@ try:
 except ImportError:
     HAS_SEABORN = False
 
-
-# LOAD DATA
-
-
-form = pd.read_csv("train.csv")
 
 print("First 5 Rows")
 print(form.head())
