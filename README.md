@@ -146,7 +146,7 @@ git clone https://github.com/VictorMagadi/Titanic.git
 2. Navigate to the project folder
 
 ```bash
-cd Titanic-Survival-Analysis
+cd Titanic
 ```
 
 3. Install the required libraries
@@ -158,7 +158,7 @@ pip install pandas matplotlib seaborn
 4. Run the Python script
 
 ```bash
-python titanic_analysis.py
+python titanic-train.py
 ```
 
 ---
