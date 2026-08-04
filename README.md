@@ -140,7 +140,7 @@ Titanic-Survival-Analysis/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/VictorMagadi/Titanic-Survival-Analysis.git
+git clone https://github.com/VictorMagadi/Titanic.git
 ```
 
 2. Navigate to the project folder
